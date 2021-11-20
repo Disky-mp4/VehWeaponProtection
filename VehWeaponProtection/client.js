@@ -13,4 +13,5 @@ onNet('disky.vehweapons2', () => {
         args: ['Server', 'Your vehicle was deleted due to it having weapons! (You do not have permission!)'],
         color: [255, 0, 0]
     })
+    emitNet('server:logDeletion');
 })
